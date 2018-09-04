@@ -995,11 +995,6 @@ bool allow_duplicate_job(JCR *jcr)
              }
          }
 
-	 // Patch from https://bugs.bareos.org/mantis/view.php?id=792
-	 if (djcr->is_JobType(JT_CONSOLIDATE)) {
-		 break;
-	 }
-
          if (cancel_dup || job->CancelRunningDuplicates) {
             /*
              * Zap the duplicated job djcr

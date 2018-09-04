@@ -1,0 +1,19 @@
+Description: Added patch to fix Consolidate jobs and dupe detection
+Origin: other, https://bugs.bareos.org/mantis/view.php?id=792
+Bug: https://bugs.bareos.org/mantis/view.php?id=792#c2870
+Last-Update: 2018-09-04
+
+--- bareos-17.2.7.orig/src/dird/job.c
++++ bareos-17.2.7/src/dird/job.c
+@@ -995,6 +995,11 @@ bool allow_duplicate_job(JCR *jcr)
+              }
+          }
+ 
++	 // Patch from https://bugs.bareos.org/mantis/view.php?id=792
++	 if (djcr->is_JobType(JT_CONSOLIDATE)) {
++		 break;
++	 }
++
+          if (cancel_dup || job->CancelRunningDuplicates) {
+             /*
+              * Zap the duplicated job djcr
