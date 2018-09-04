@@ -4231,11 +4231,13 @@ debian|ubuntu|univention)
    DEBIAN_CONTROL_UNIVENTION_BAREOS=/dev/null
    PFILES="${PFILES} ${DEBIAN_CONTROL} \
       debian/bareos-bconsole.install \
+      debian/bareos-bconsole.postinst \
       debian/bareos-common.install \
-      debian/bareos-common.preinst \
       debian/bareos-common.postinst \
+      debian/bareos-common.preinst \
       debian/bareos-database-common.config \
       debian/bareos-database-common.install \
+      debian/bareos-database-common.postinst \
       debian/bareos-database-mysql.install \
       debian/bareos-database-postgresql.dirs \
       debian/bareos-database-postgresql.install \
@@ -4245,6 +4247,7 @@ debian|ubuntu|univention)
       debian/bareos-director-python-plugin.install \
       debian/bareos-director.bareos-dir.init \
       debian/bareos-director.install \
+      debian/bareos-director.postinst \
       debian/bareos-director.preinst \
       debian/bareos-filedaemon-ceph-plugin.install \
       debian/bareos-filedaemon-glusterfs-plugin.install \
@@ -4252,6 +4255,7 @@ debian|ubuntu|univention)
       debian/bareos-filedaemon-python-plugin.install \
       debian/bareos-filedaemon.bareos-fd.init \
       debian/bareos-filedaemon.install \
+      debian/bareos-filedaemon.postinst \
       debian/bareos-filedaemon.preinst \
       debian/bareos-storage-ceph.install \
       debian/bareos-storage-glusterfs.install \
@@ -4260,11 +4264,13 @@ debian|ubuntu|univention)
       debian/bareos-storage-tape.install \
       debian/bareos-storage.bareos-sd.init \
       debian/bareos-storage.install \
+      debian/bareos-storage.postinst \
       debian/bareos-storage.preinst \
       debian/bareos-regress-config.install \
       debian/bareos-regress-config.preinst \
       debian/bareos-tools.install \
       debian/bareos-traymonitor.install \
+      debian/bareos-traymonitor.postinst \
       platforms/debian/Makefile \
       platforms/debian/set_dbconfig_vars.sh"
    case "$DISTNAME" in
