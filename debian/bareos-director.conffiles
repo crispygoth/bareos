@@ -1,0 +1,23 @@
+/etc/bareos/bareos-dir.d/catalog/MyCatalog.conf
+/etc/bareos/bareos-dir.d/client/bareos-fd.conf
+/etc/bareos/bareos-dir.d/console/bareos-mon.conf
+/etc/bareos/bareos-dir.d/director/bareos-dir.conf
+/etc/bareos/bareos-dir.d/fileset/Catalog.conf
+/etc/bareos/bareos-dir.d/fileset/LinuxAll.conf
+/etc/bareos/bareos-dir.d/fileset/SelfTest.conf
+/etc/bareos/bareos-dir.d/fileset/Windows All Drives.conf
+/etc/bareos/bareos-dir.d/job/backup-bareos-fd.conf
+/etc/bareos/bareos-dir.d/job/BackupCatalog.conf
+/etc/bareos/bareos-dir.d/job/RestoreFiles.conf
+/etc/bareos/bareos-dir.d/jobdefs/DefaultJob.conf
+/etc/bareos/bareos-dir.d/messages/Daemon.conf
+/etc/bareos/bareos-dir.d/messages/Standard.conf
+/etc/bareos/bareos-dir.d/pool/Differential.conf
+/etc/bareos/bareos-dir.d/pool/Full.conf
+/etc/bareos/bareos-dir.d/pool/Incremental.conf
+/etc/bareos/bareos-dir.d/pool/Scratch.conf
+/etc/bareos/bareos-dir.d/profile/operator.conf
+/etc/bareos/bareos-dir.d/schedule/WeeklyCycleAfterBackup.conf
+/etc/bareos/bareos-dir.d/schedule/WeeklyCycle.conf
+/etc/bareos/bareos-dir.d/storage/File.conf
+/etc/bareos/tray-monitor.d/director/Director-local.conf
