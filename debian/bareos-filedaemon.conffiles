@@ -1,5 +1,0 @@
-/etc/bareos/bareos-fd.d/client/myself.conf
-/etc/bareos/bareos-fd.d/director/bareos-dir.conf
-/etc/bareos/bareos-fd.d/director/bareos-mon.conf
-/etc/bareos/bareos-fd.d/messages/Standard.conf
-/etc/bareos/tray-monitor.d/client/FileDaemon-local.conf
