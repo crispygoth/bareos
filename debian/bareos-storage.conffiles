@@ -1,6 +1,0 @@
-/etc/bareos/bareos-sd.d/device/FileStorage.conf
-/etc/bareos/bareos-sd.d/director/bareos-dir.conf
-/etc/bareos/bareos-sd.d/director/bareos-mon.conf
-/etc/bareos/bareos-sd.d/messages/Standard.conf
-/etc/bareos/bareos-sd.d/storage/bareos-sd.conf
-/etc/bareos/tray-monitor.d/storage/StorageDaemon-local.conf
