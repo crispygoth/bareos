@@ -33,7 +33,7 @@ define CONFIGURE_COMMON
   --with-confdir=/etc/bareos \
   --with-archivedir=/var/lib/bareos/storage \
   --with-backenddir=/usr/lib/bareos/backends \
-  --with-configtemplatedir=/usr/lib/bareos/defaultconfigs \
+  --with-configtemplatedir=/etc/bareos \
   --with-scriptdir=/usr/lib/bareos/scripts \
   --with-plugindir=/usr/lib/bareos/plugins \
   --with-working-dir=/var/lib/bareos \
