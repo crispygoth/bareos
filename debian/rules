@@ -90,6 +90,10 @@ endif
 CONFIGURE_CLIENT_ONLY = $(CONFIGURE_COMMON) --enable-client-only
 CONFIGURE_FULL        = $(CONFIGURE_COMMON) --with-python --enable-traymonitor
 
+override_dh_clean:
+	dh_clean
+	rm -rf $(CURDIR)/build src/include/config.h
+
 override_dh_auto_configure:
 	@if [ "`lsb_release --short  --id`" = "Ubuntu" ] && [ "`lsb_release --short  --release`" = "8.04" ]; then \
 		echo "configure common configuration"; \
