@@ -1,3 +1,9 @@
+bareos (17.2.7-5) unstable; urgency=medium
+
+  * Add ExecReload to bareos-director service file
+
+ -- Chris Butler <chrisb@stretch-minimal.zcode.net>  Thu, 06 Sep 2018 18:35:32 +0100
+
 bareos (17.2.7-4) unstable; urgency=medium
 
   * Instead of just not installing the default configs, switch to dpkg's
