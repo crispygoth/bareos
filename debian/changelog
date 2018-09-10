@@ -1,3 +1,9 @@
+bareos (17.2.7-5.1) unstable; urgency=medium
+
+  * Add libjansson-dev to build-depends to ensure JSON support for the API
+
+ -- Chris Butler <chrisb@zedcore.com>  Mon, 10 Sep 2018 11:10:23 +0100
+
 bareos (17.2.7-5) unstable; urgency=medium
 
   * Add ExecReload to bareos-director service file
